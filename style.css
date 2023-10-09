@@ -62,7 +62,7 @@ body {
 }
 
 .cabecalho-menu-item {
-    font-family: 'Inter', Ssans-serif;
+    font-family: 'Inter', sans-serif;
     color: #20DBA2;
     font-weight: bold;
     font-size: 18px;
@@ -113,7 +113,13 @@ body {
     color: #20DBA2;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
+
+.conteudo-principal-botao:hover {
+    background-color: #5d3698;
+}
+
 .imagem{
     grid-row: auto;
 }
@@ -157,8 +163,6 @@ body {
 .sobre_content {
     display: flex;
     flex-direction: column;
-    /* margin-right: auto;
-    margin-left: 150px; */
     gap: 40px;
 }
 
@@ -228,5 +232,20 @@ footer {
     font-size: 18px;
     padding-bottom: 160px;
 }
+
+.enviar_btn {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.enviar_btn:hover {
+    background-color: #dddcdd;
+}
+
+
 
 
