@@ -14,11 +14,11 @@ const alunos = [
     matricula: '01510913'
   },
   {
-    name: 'Lorena Mendes',
+    name: 'Lorena Mendes Diniz',
     matricula: '01528548'
   },
   {
-    name: 'Pedro Vinicius',
+    name: 'Pedro Vinícius',
     matricula: '01529186'
   }
 ]
@@ -39,8 +39,6 @@ const addMembers = () => {
     div.appendChild(p2);
 
     mainDiv.appendChild(div);
-    console.log(mainDiv);
-    return 0;
   })
   
 }
