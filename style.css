@@ -246,6 +246,9 @@ footer {
     background-color: #dddcdd;
 }
 
-
-
+#googleMap {
+    width: 95%;
+    height: 400px;
+    padding-bottom: 300px;
+}
 
