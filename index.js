@@ -20,6 +20,10 @@ const alunos = [
   {
     name: 'Pedro Vinícius',
     matricula: '01529186'
+  },
+  {
+    name: 'gabriel lucifer',
+    matricula: '0123001230'
   }
 ]
 
