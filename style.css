@@ -256,8 +256,9 @@ footer {
 
 .content_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     position: relative;
+    padding-right: 35px;
 
 }
 
@@ -269,7 +270,7 @@ footer {
 .info{
     background-color: #3C3C62;
     padding: 30px;
-    width: 1300px;
+    width: 900px;
     margin-top: 45px;
     border-radius: 10px;
     display: flex;
@@ -280,7 +281,7 @@ footer {
 }
 
 .sidebar{
-   width: 250px;
+   width: 200px;
    background-color: #20DBA2;
    padding-top: 50px;
    height: 90vh;
